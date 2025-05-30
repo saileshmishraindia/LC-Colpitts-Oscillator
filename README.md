@@ -14,8 +14,6 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 - [Applications and Use Cases](#applications-and-use-cases)  
 - [Conclusion](#conclusion)  
 - [References](#references)
-  
-# LC COLPITTS OSCILLATOR CIRCUIT FOR SINE WAVE GENERATION
 
 ## Objective
 

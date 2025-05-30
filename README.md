@@ -6,7 +6,7 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 
 ## Table of Contents
 
-- [Project Objective](#project-objective)  
+- [Objective](#objective)  
 - [System Block Diagram](#system-block-diagram)  
 - [Detailed Circuit Description](#detailed-circuit-description)  
 - [Mathematical Analysis and Component Selection](#mathematical-analysis-and-component-selection)  
@@ -17,40 +17,40 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 - 
 # LC COLPITTS OSCILLATOR CIRCUIT FOR SINE WAVE GENERATION
 
-## 🧾 Project Objective
+## Objective
 
 - **Design a Colpitts Oscillator** to generate sustained sine wave signals using an LC tank circuit.
 - **Analyze** the frequency of oscillation and phase shift using component values.
 - **Simulate** the design and verify sinusoidal waveform output.
 - **Understand** the role of transistor biasing and feedback for oscillation conditions.
 
-## 🧩 System Block Diagram
+## System Block Diagram
 
 ![Block Diagram](Block_Diagram.png)
 
 <p align="center"><strong>Figure 1 : LC Colpitts Oscillator Circuit</strong></p>
 
-## 🛠️ Detailed Circuit Description
+## Detailed Circuit Description
 
-### 🔁 Feedback Network (LC Tank)
+### Feedback Network (LC Tank)
 
 - **Capacitors C1 and C2** form a **capacitive voltage divider**.
 - **Inductor L** with C1 and C2 creates a **resonant LC tank circuit**.
 - The feedback is taken from the **junction of C1 and C2** back to the **transistor base** to sustain oscillations.
 
-### ⚡ Active Device: Transistor Amplifier
+### Active Device: Transistor Amplifier
 
 - **NPN BJT** is configured in **common emitter** mode.
 - Provides **necessary gain** and **inverts the phase**.
 - Helps fulfill **Barkhausen Criterion** (loop gain ≥ 1 and phase shift = 0° or 360°).
 
-### 🧲 Biasing and Coupling Elements
+### Biasing and Coupling Elements
 
 - **Rc and Re** set the transistor's **DC operating point**.
 - **Bypass capacitor Ce** offers low reactance path at oscillation frequency.
 - **Base bias resistors** provide a stable Q-point.
 
-## 📐 Mathematical Analysis and Frequency Calculation
+## Mathematical Analysis and Frequency Calculation
 
 - **Frequency of Oscillation**:
 
@@ -78,28 +78,27 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 ![Block Diagram](Output_1.png)
 
 
-## 🌟 Performance Highlights
+## Performance Highlights
 
 - **Stable sinusoidal waveform** with desired frequency.
 - Frequency controlled by **L, C1, and C2** values.
 - **Amplitude limited** by non-linear behavior of the BJT (prevents overdrive).
 - Low distortion and high signal purity depending on Q-factor.
 
-## 💡 Applications and Use Cases
+## Applications and Use Cases
 
 - **RF Signal Generators**
 - **Local Oscillators** in radios and receivers
 - **Sine Wave Generators** for testing analog systems
 - **Function Generators** and **Analog Modulators**
 
-## ✅ Conclusion
+## Conclusion
 
 - **Colpitts oscillator** uses a simple LC configuration with a BJT to generate sustained sinusoidal signals.
 - Proper feedback and biasing are essential for maintaining oscillation.
 - Frequency is determined by reactive elements, making it tunable for RF and analog use.
 
-## 📚 References
-
-- Boylestad, R. L., & Nashelsky, L. (Electronic Devices and Circuit Theory)
-- Sedra, A. S., & Smith, K. C. (Microelectronic Circuits)
-- Multisim SPICE Simulations and Lab Experiments
+## References
+1. OP07 (Op-Amp) Datasheet : [OP07 Datasheet](OP07.PDF)
+2. Boylestad, R. L., & Nashelsky, L. (Electronic Devices and Circuit Theory)
+3. Sedra, A. S., & Smith, K. C. (Microelectronic Circuits)

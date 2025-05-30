@@ -52,15 +52,17 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 
 - **Frequency of Oscillation**:
 
-  \[
-  f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot \left( \frac{C1 \cdot C2}{C1 + C2} \right) } }
-  \]
+  $$
+  f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot \left( \frac{C_1 \cdot C_2}{C_1 + C_2} \right) } }
+  $$
 
-- The effective capacitance is:
+- **The effective capacitance is**:
 
-  \[
-  C_{eff} = \frac{C1 \cdot C2}{C1 + C2}
-  \]
+  $$
+  C_{\text{eff}} = \frac{C_1 \cdot C_2}{C_1 + C_2}
+  $$
+
+
 
 - Oscillation condition:
 

@@ -58,9 +58,9 @@ This project involves designing an **LC Colpitts Oscillator** to generate sinuso
 
 - **The effective capacitance is**:
 
-  $$
-  C_{\text{eff}} = \frac{C_1 \cdot C_2}{C_1 + C_2}
-  $$
+$$
+C_{\text{eff}} = \frac{C_1 \cdot C_2}{C_1 + C_2}
+$$
 
 
 

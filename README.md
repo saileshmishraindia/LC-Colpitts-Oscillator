@@ -63,6 +63,31 @@ $$
 f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot \left( \frac{C_1 \cdot C_2}{C_1 + C_2} \right) } }
 $$
 
+Given:
+
+- $C_1 = C_2 = 200\,\mathrm{pF} = 200 \times 10^{-12}\,\mathrm{F}$
+- $L = 100\,\mu\mathrm{H} = 100 \times 10^{-6}\,\mathrm{H}$
+
+Substituting the values of C1 & C2, we get   
+
+$$
+C_{\text{eff}} = \frac{C_1 \cdot C_2}{C_1 + C_2} = \frac{200 \times 10^{-12} \cdot 200 \times 10^{-12}}{200 \times 10^{-12} + 200 \times 10^{-12}} = 100 \times 10^{-12} \,\text{F}
+$$
+
+Now, Let's calculate the frequency of Oscillation :
+
+$$
+f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot C_{\text{eff}}} } = \frac{1}{2\pi} \sqrt{ \frac{1}{100 \times 10^{-6} \cdot 100 \times 10^{-12}} }
+$$
+
+$$
+f = \frac{1}{2\pi} \sqrt{ \frac{1}{10^{-14}} } = \frac{1}{2\pi} \cdot 10^7 \approx \frac{10^7}{6.2832} \approx 1.59 \times 10^6 \ \text{Hz}
+$$
+
+
+$$
+f \approx 1.6\ \text{MHz}
+$$
 
 
 

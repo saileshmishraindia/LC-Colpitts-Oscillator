@@ -59,9 +59,10 @@ $$
 
 - **Frequency of Oscillation**:
 
-  $$
-  f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot \left( \frac{C_1 \cdot C_2}{C_1 + C_2} \right) } }
-  $$
+ $$
+f = \frac{1}{2\pi} \sqrt{ \frac{1}{L \cdot \left( \frac{C_1 \cdot C_2}{C_1 + C_2} \right) } }
+$$
+
 
 
 

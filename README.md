@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves designing an **LC Colpitts Oscillator** to generate sinusoidal waveforms using a transistor-based amplifier and an LC feedback network. The oscillator leverages the phase-shift and resonance conditions of an LC tank circuit to produce stable, continuous sine waves. The primary objective is to analyze, simulate, and understand how component values influence the frequency and amplitude of oscillation.
+This project involves designing an **LC Colpitts Oscillator** to generate sinusoidal waveforms using an operational amplifier and an LC feedback network. The oscillator leverages the phase-shift and resonance conditions of an LC tank circuit to produce stable, continuous sine waves. The primary objective is to analyze, simulate, and understand how component values influence the frequency and amplitude of oscillation.
 
 ## Table of Contents
 
